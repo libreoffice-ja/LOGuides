@@ -1,0 +1,72 @@
+format	書式
+document	文書
+list	箇条書き
+at best	せいぜい
+at most	せいぜい
+on the fly	急いで
+passage	一節
+formula	数式
+OASIS	構造化情報標準化機構
+reload	再読み込み
+View	表示
+Expert	熟練者
+Basic IDE	Basic IDE
+Em dash	長ダッシュ
+En dash	短ダッシュ
+metric	メートル法
+imperial	ヤードポンド法
+selection	選択肢
+Table	表
+landscape	横置き
+portrait	縦置き
+bibliography	参考文献
+mail merge	差し込み印刷
+bullet	黒丸
+wrap	折り返し
+column	段組み
+regular expressions	正規表現<
+Writing Aids	文書作成支援
+autoText	定型句文
+autoText	定型文
+breaks	区切り
+chart	グラフ
+concordance	用語索引
+index entry	索引項目
+entry	見出し語
+default	標準
+Quickstarter	クイックスターター
+Headings	見出し
+chapter	章
+instance	実例
+instance	事例　実例
+embarrassing	困った
+hilarious	大笑いを誘う
+reject	却下
+merge	結合
+formatting	書式設定
+justified paragraph	両端揃え段落
+transparency	透過性
+Text Flow	体裁
+strikethrough	取り消し線
+Outline Numbering	章番号付け
+sidehead	脇見出し
+marginal note	傍注
+Marginalia	傍注
+custom format	任意の書式
+text	文章
+envelope	封筒
+Fill Formatting	水やり
+register-true	印刷見当
+fill character	充填文字（埋め字）
+property	属性
+attribute	属性
+register-true	印刷見当
+bullet	箇条書き記号
+Fontwork	フォントワーク
+structure line	構成行
+appearance	外観
+entry	項目
+number range variable	数値範囲変数
+citation	引用	references
+front matter	前付け
+spreadsheet	表計算

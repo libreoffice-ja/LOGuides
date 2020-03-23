@@ -1,0 +1,12 @@
+StarDict's dict ifo file
+version=3.0.0
+wordcount=172210
+idxfilesize=1549890
+synwordcount=370363
+bookname=JMdict
+sametypesequence=h
+author=Jim Breen et al.
+email=
+website=http://www.edrdg.org/jmdict/j_jmdict.html
+description=JMdict -- Japanese-Multilingual Dictionary<br> http://www.edrdg.org/jmdict/j_jmdict.html <br><br> The source file is available under a Creative Commons Attribution-ShareAlike Licence (V3.0) -- for more details, see: http://www.edrdg.org/edrdg/licence.html <br> <br> This version created by:<br> Simon Wiles (http://simonwiles.net/projects/jmdict/) <br><br>JMdict source file dated: 2014-10-04
+date=2014-10-04
