@@ -9,6 +9,7 @@ stardict.ifo
 !omegat/project_save.tmx
 !tm/*.tmx
 !tm/auto/*.tmx
+tm/libreoffice-trans-ja-*.tmx
 
 # Created by https://www.gitignore.io/api/git,vim,kate,emacs,linux,macos,windows,libreoffice,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=git,vim,kate,emacs,linux,macos,windows,libreoffice,visualstudiocode
