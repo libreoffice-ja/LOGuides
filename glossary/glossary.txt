@@ -73,3 +73,4 @@ spreadsheet	表計算
 Note	メモ
 Caution	注意
 Tips	ヒント
+Warning	警告
