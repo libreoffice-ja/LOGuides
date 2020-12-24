@@ -74,3 +74,4 @@ Note	メモ
 Caution	注意
 Tips	ヒント
 Warning	警告
+Charts	グラフ
