@@ -70,3 +70,6 @@ number range variable	数値範囲変数
 citation	引用	references
 front matter	前付け
 spreadsheet	表計算
+Note	メモ
+Caution	注意
+Tips	ヒント
