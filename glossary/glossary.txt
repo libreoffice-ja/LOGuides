@@ -76,3 +76,4 @@ Tips	ヒント
 Warning	警告
 Charts	グラフ
 General	全般
+Web	ウェブ
