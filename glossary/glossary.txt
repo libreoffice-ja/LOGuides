@@ -1,357 +1,222 @@
-format	書式
-document	文書
-list	箇条書き
+2 Dots 1 Dash	二点鎖線
+3 Dashes 3 Dots	三点三鎖線
+Abstract	要約
+Agenda	アジェンダ
+Align	整列
+Alignment	配置
+Area	領域
+Arrange	配置
+At least	最小値
+AutoText	定型文
+Base	Base
+Basic IDE	Basic IDE
+Bibliography	参考文献
+Bibliography database	参考文献データベース
+Border	罫線
+Borders	罫線
+Bullets	箇条書き
+Calc	Calc
+Calc Guide	Calcガイド
+Capitalize	大文字
+Category	分類
+Caution	注意
+Cell Value	セルの値
+Chapter	章
+Character style	文字スタイル
+Charts	グラフ
+Clear Direct formatting	直接設定した書式の解除
+Column Header	列見出し
+Complimentary Close	結語
+Connectors	コネクター
+Convert	変換
+Dash	破線
+Dash Dot	一点鎖線
+Default	標準
+Demote	レベル下げ
+Digital Signature	デジタル署名
+Digital Signing	デジタル署名
+Display	内容表示
+Dot	点線
+Draw	Draw
+Drawing objects	図形オブジェクト
+Em dash	長ダッシュ
+Email	メール
+Email Address	メールアドレス
+Emphasis Mark	傍点
+En dash	短ダッシュ
+Expert	熟練者
+Expert Configuration	上級者向け設定
+Extrusion	浮き出し
+Figure	図
+Fill Formatting	水やり
+First Line Indent	本文段落字下げ
+Fixed	固定値
+Fontwork	フォントワーク
+General	全般
+Getting Started Guide	入門ガイド
+Glow	光彩
+Grayscale	グレースケール
+Grid	目盛線
+Gridlines	目盛線
+Hanging Indent	本文ぶら下げインデント
+Headings	見出し
+Hidden characters	隠し文字
+Highlighting	蛍光ペン
+HyperText Markup Language (HTML)	ハイパー テキスト マークアップ ランゲージ（HTML）
+Icon View	アイコン表示
+Image	画像
+Impress	Impress
+Input Method Status	入力メソッドのステータス
+Installation Wizard	インストール ウィザード
+Interface	インターフェース
+Legend	凡例
+List	箇条書き
+Long Dash	長破線
+Long Dash Dot	長鎖線
+Mailing List	メーリングリスト
+Main Title	主題
+Major interval	主目盛間隔
+Marginalia	傍注
+Margins	余白
+Math	Math
+Math Guide	Mathガイド
+Media Playback	メディアの再生
+Minor grid	補助目盛線
+Minor interval	補助目盛間隔
+Moderate	やや狭い
+Nested Table	入れ子の表
+Non Break	改行なし
+Note	メモ
+Notebookbar	ノートブックバー
+OASIS	構造化情報標準化機構
+Other Options	その他のオプション
+Outline Content Visibility	見出しの折りたたみ
+Outline Numbering	章番号付け
+Page border	ページ罫線
+Percentile	百分位
+Playback	再生
+Portable Network Graphic (PNG)	ポータブル ネットワーク グラフィックス（PNG）
+Position	位置
+Predefined	定義済み
+Promote	レベル上げ
+Protect document	ドキュメントの保護
+Quickstarter	クイックスターター
+Quotation	引用文
+Radius	範囲
+Read-only	読み取り専用
+Recent Documents	最近使ったドキュメント
+Recent documents	最近使用した​​ドキュメント
+Row Header	行見出し
+Scientific	指数
+Shading	網掛け
+Shape	図形
+Small caps	小型英大文字
+Soft Edge	ぼかし
+Soft hyphens	ソフトハイフン
+Sound	サウンド
+Sound	音
+Spacing	間隔
+Spacing	余白
+Standard	標準
+Subscript	下付き文字
+Subtitle	副題
+Superscript	上付き文字
+Table	表
+Text Flow	体裁
+The Document Foundation	The Document Foundation
+Thick	太罫線
+Thin	細罫線
+Tips	ヒント
+Title	表題
+Transformations	変形
+Transparency	透明度
+Trend Line	近似曲線
+Trend Line(s)	近似曲線
+View	画面表示
+View	表示
+Warning	警告
+Web	ウェブ
+Web page	Webページ
+Web site	ウェブサイト
+What's This?	これは何ですか？
+Windows metafile	Windows メタファイル
+Word Completion	単語の補完
+Writer	Writer
+Writer Guide	Writerガイド
+Writing Aids	文書作成支援
+angle quotes	ギュメ
+animation effect	アニメーション効果
+appearance	外観
 at best	せいぜい
 at most	せいぜい
-on the fly	急いで
-passage	一節
-formula	数式
-OASIS	構造化情報標準化機構
-reload	再読み込み
-View	表示
-Expert	熟練者
-Basic IDE	Basic IDE
-Em dash	長ダッシュ
-En dash	短ダッシュ
-metric	メートル法
-imperial	ヤードポンド法
-selection	選択肢
-Table	表
-landscape	横置き
-portrait	縦置き
-bibliography	参考文献
-mail merge	差し込み印刷
-bullet	黒丸
-wrap	折り返し
-column	段組み
-regular expressions	正規表現<
-Writing Aids	文書作成支援
+attribute	属性
 autoText	定型句文
 autoText	定型文
+bibliography	参考文献
 breaks	区切り
-chart	グラフ
-concordance	用語索引
-index entry	索引項目
-entry	見出し語
-default	標準
-Quickstarter	クイックスターター
-Headings	見出し
-chapter	章
-instance	実例
-instance	事例　実例
-embarrassing	困った
-hilarious	大笑いを誘う
-reject	却下
-merge	結合
-formatting	書式設定
-justified paragraph	両端揃え段落
-transparency	透過性
-Text Flow	体裁
-strikethrough	取り消し線
-Outline Numbering	章番号付け
-sidehead	脇見出し
-marginal note	傍注
-Marginalia	傍注
-custom format	任意の書式
-text	文章
-envelope	封筒
-Fill Formatting	水やり
-register-true	印刷見当
-fill character	充填文字（埋め字）
-property	属性
-attribute	属性
-register-true	印刷見当
 bullet	箇条書き記号
-Fontwork	フォントワーク
-structure line	構成行
-appearance	外観
-entry	項目
-number range variable	数値範囲変数
+bullet	黒丸
+case sensitive	大文字・小文字は区別されます
+chapter	章
+chart	グラフ
 citation	引用	references
-front matter	前付け
-spreadsheet	表計算
-Note	メモ
-Caution	注意
-Tips	ヒント
-Warning	警告
-Charts	グラフ
-General	全般
-Web	ウェブ
-2 Dots 1 Dash	二点鎖線
-3 Dashes 3 Dots	三点三鎖線
-Abstract	要約
-Agenda	アジェンダ
-Align	整列
-Alignment	配置
-angle quotes	ギュメ
-animation effect	アニメーション効果
-Area	領域
-Arrange	配置
-At least	最小値
-AutoText	定型文
-Bibliography	参考文献
-Bibliography database	参考文献データベース
-Border	罫線
-Borders	罫線
-Bullets	箇条書き
-Capitalize	大文字
-case sensitive	大文字・小文字は区別されます
-Category	分類
-Cell Value	セルの値
-Chapter	章
-Character style	文字スタイル
-Clear Direct formatting	直接設定した書式の解除
+column	段組み
 column break	段区切り
-Column Header	列見出し
-Complimentary Close	結語
+concordance	用語索引
 connector	コネクター
-Connectors	コネクター
-Convert	変換
 copy	コピー
+custom format	任意の書式
 cut	切り取り
-Dash	破線
-Dash Dot	一点鎖線
 default	規定
-Default	標準
-Demote	レベル下げ
-Digital Signature	デジタル署名
-Digital Signing	デジタル署名
-Display	内容表示
+default	標準
 document	文書
-Dot	点線
-Drawing objects	図形オブジェクト
-Email	メール
-Email Address	メールアドレス
+embarrassing	困った
 emboss	浮き出し
-Emphasis Mark	傍点
-Expert Configuration	上級者向け設定
-Extrusion	浮き出し
-Figure	図
-First Line Indent	本文段落字下げ
-Fixed	固定値
-Fontwork	フォントワーク
+entry	見出し語
+entry	項目
+envelope	封筒
+fill character	充填文字（埋め字）
+format	書式
+formatting	書式設定
 formatting mark	編集記号
+formula	数式
 formula bar	数式バー
-Glow	光彩
-Grayscale	グレースケール
-Grid	目盛線
-Gridlines	目盛線
-Hanging Indent	本文ぶら下げインデント
-Hidden characters	隠し文字
-Highlighting	蛍光ペン
-HyperText Markup Language (HTML)	ハイパー テキスト マークアップ ランゲージ（HTML）
-Icon View	アイコン表示
-Image	画像
-Input Method Status	入力メソッドのステータス
-Installation Wizard	インストール ウィザード
-Interface	インターフェース
-Legend	凡例
+front matter	前付け
+hilarious	大笑いを誘う
+imperial	ヤードポンド法
+index entry	索引項目
+instance	事例　実例
+instance	実例
+justified paragraph	両端揃え段落
+landscape	横置き
 line break	改行
-List	箇条書き
-Long Dash	長破線
-Long Dash Dot	長鎖線
+list	箇条書き
 mail merge	差し込み印刷
-Main Title	主題
-Major interval	主目盛間隔
-Margins	余白
-Media Playback	メディアの再生
-Minor grid	補助目盛線
-Minor interval	補助目盛間隔
-Moderate	やや狭い
-Nested Table	入れ子の表
-Non Break	改行なし
-Notebookbar	ノートブックバー
+marginal note	傍注
+merge	結合
+metric	メートル法
+number range variable	数値範囲変数
+on the fly	急いで
 order	順序
-Other Options	その他のオプション
-Outline Content Visibility	見出しの折りたたみ
-Page border	ページ罫線
 page break	改ページ
+passage	一節
 paste	貼り付け
-Percentile	百分位
-Playback	再生
-Portable Network Graphic (PNG)	ポータブル ネットワーク グラフィックス（PNG）
-Position	位置
-Predefined	定義済み
-Promote	レベル上げ
-Protect document	ドキュメントの保護
-Quotation	引用文
-Radius	範囲
+portrait	縦置き
+property	属性
 read only	読み取り専用
-Read-only	読み取り専用
-Recent Documents	最近使ったドキュメント
-Recent documents	最近使用した​​ドキュメント
-Row Header	行見出し
-Scientific	指数
-Shading	網掛け
-Shape	図形
-Small caps	小型英大文字
-Soft Edge	ぼかし
-Soft hyphens	ソフトハイフン
-Sound	サウンド
-Sound	音
+register-true	印刷見当
+regular expressions	正規表現<
+reject	却下
+reload	再読み込み
+selection	選択肢
+sidehead	脇見出し
 space	空白
-Spacing	間隔
-Spacing	余白
-Standard	標準
-Subscript	下付き文字
-Subtitle	副題
-Superscript	上付き文字
-The Document Foundation	The Document Foundation
-Thick	太罫線
-Thin	細罫線
-Title	表題
-Transformations	変形
+spreadsheet	表計算
+strikethrough	取り消し線
+structure line	構成行
+text	文章
 transition	切り替え（効果）
-Transparency	透明度
-Trend Line	近似曲線
-Trend Line(s)	近似曲線
-View	画面表示
-Web page	Webページ
-What's This?	これは何ですか？
-whitespace	空白文字
-Windows metafile	Windows メタファイル
-Word Completion	単語の補完
-2 Dots 1 Dash	二点鎖線
-3 Dashes 3 Dots	三点三鎖線
-Abstract	要約
-Agenda	アジェンダ
-Align	整列
-Alignment	配置
-angle quotes	ギュメ
-animation effect	アニメーション効果
-Area	領域
-Arrange	配置
-At least	最小値
-AutoText	定型文
-Bibliography	参考文献
-Bibliography database	参考文献データベース
-Border	罫線
-Borders	罫線
-Bullets	箇条書き
-Capitalize	大文字
-case sensitive	大文字・小文字は区別されます
-Category	分類
-Cell Value	セルの値
-Chapter	章
-Character style	文字スタイル
-Clear Direct formatting	直接設定した書式の解除
-column break	段区切り
-Column Header	列見出し
-Complimentary Close	結語
-connector	コネクター
-Connectors	コネクター
-Convert	変換
-copy	コピー
-cut	切り取り
-Dash	破線
-Dash Dot	一点鎖線
-default	規定
-Default	標準
-Demote	レベル下げ
-Digital Signature	デジタル署名
-Digital Signing	デジタル署名
-Display	内容表示
-Dot	点線
-Drawing objects	図形オブジェクト
-Email	メール
-Email Address	メールアドレス
-emboss	浮き出し
-Emphasis Mark	傍点
-Expert Configuration	上級者向け設定
-Extrusion	浮き出し
-Figure	図
-First Line Indent	本文段落字下げ
-Fixed	固定値
-formatting mark	編集記号
-formula bar	数式バー
-Glow	光彩
-Grayscale	グレースケール
-Grid	目盛線
-Gridlines	目盛線
-Hanging Indent	本文ぶら下げインデント
-Hidden characters	隠し文字
-Highlighting	蛍光ペン
-HyperText Markup Language (HTML)	ハイパー テキスト マークアップ ランゲージ（HTML）
-Icon View	アイコン表示
-Image	画像
-Input Method Status	入力メソッドのステータス
-Installation Wizard	インストール ウィザード
-Interface	インターフェース
-Legend	凡例
-line break	改行
-List	箇条書き
-Long Dash	長破線
-Long Dash Dot	長鎖線
-Main Title	主題
-Major interval	主目盛間隔
-Margins	余白
-Media Playback	メディアの再生
-Minor grid	補助目盛線
-Minor interval	補助目盛間隔
-Moderate	やや狭い
-Nested Table	入れ子の表
-Non Break	改行なし
-Notebookbar	ノートブックバー
-order	順序
-Other Options	その他のオプション
-Outline Content Visibility	見出しの折りたたみ
-Page border	ページ罫線
-page break	改ページ
-paste	貼り付け
-Percentile	百分位
-Playback	再生
-Portable Network Graphic (PNG)	ポータブル ネットワーク グラフィックス（PNG）
-Position	位置
-Predefined	定義済み
-Promote	レベル上げ
-Protect document	ドキュメントの保護
-Quotation	引用文
-Radius	範囲
-read only	読み取り専用
-Read-only	読み取り専用
-Recent Documents	最近使ったドキュメント
-Recent documents	最近使用した​​ドキュメント
-Row Header	行見出し
-Scientific	指数
-Shading	網掛け
-Shape	図形
-Small caps	小型英大文字
-Soft Edge	ぼかし
-Soft hyphens	ソフトハイフン
-Sound	サウンド
-Sound	音
-space	空白
-Spacing	間隔
-Spacing	余白
-Standard	標準
-Subscript	下付き文字
-Subtitle	副題
-Superscript	上付き文字
-The Document Foundation	The Document Foundation
-Thick	太罫線
-Thin	細罫線
-Title	表題
-Transformations	変形
-transition	切り替え（効果）
-Transparency	透明度
-Trend Line	近似曲線
-Trend Line(s)	近似曲線
-View	画面表示
-Web page	Webページ
-What's This?	これは何ですか？
-whitespace	空白文字
-Windows metafile	Windows メタファイル
-Word Completion	単語の補完
-Mailing List	メーリングリスト
+transparency	透過性
 user interface	ユーザーインターフェース
-Web site	ウェブサイト
-Writer Guide	Writerガイド
-Getting Started Guide	入門ガイド
-Calc Guide	Calcガイド
-Math Guide	Mathガイド
-Calc	Calc
-Writer	Writer
-Impress	Impress
-Draw	Draw
-Base	Base
-Math	Math
+whitespace	空白文字
+wrap	折り返し
