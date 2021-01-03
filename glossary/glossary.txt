@@ -343,3 +343,4 @@ whitespace	空白文字
 Windows metafile	Windows メタファイル
 Word Completion	単語の補完
 Mailing List	メーリングリスト
+user interface	ユーザーインターフェース
