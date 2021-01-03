@@ -344,3 +344,14 @@ Windows metafile	Windows メタファイル
 Word Completion	単語の補完
 Mailing List	メーリングリスト
 user interface	ユーザーインターフェース
+Web site	ウェブサイト
+Writer Guide	Writerガイド
+Getting Started Guide	入門ガイド
+Calc Guide	Calcガイド
+Math Guide	Mathガイド
+Calc	Calc
+Writer	Writer
+Impress	Impress
+Draw	Draw
+Base	Base
+Math	Math
