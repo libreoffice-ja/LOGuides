@@ -1,11 +1,10 @@
-LibreOffice Writerガイド 翻訳・査読リポジトリ
+LibreOffice ドキュメンテーション 翻訳・査読リポジトリ
 ============================================
 
 これは何？
 --------
 
-翻訳ツール[OmegaT](https://omegat.org/ja/)を使って、[LibreOffice Writerガイド](https://documentation.libreoffice.org/en/english-documentation/writer/)を
-翻訳、査読するための作業用リポジトリです。
+翻訳ツール[OmegaT](https://omegat.org/ja/)を使って、[LibreOfficeのドキュメント](https://documentation.libreoffice.org/en/english-documentation/)を翻訳、査読するための作業用リポジトリです。
 
 作業に参加するには?
 ----------------
