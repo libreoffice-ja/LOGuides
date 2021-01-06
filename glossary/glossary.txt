@@ -221,3 +221,4 @@ user interface	ユーザーインターフェース
 whitespace	空白文字
 wrap	折り返し
 Justified	両端揃え
+Run in subhead	追い込み小見出し
