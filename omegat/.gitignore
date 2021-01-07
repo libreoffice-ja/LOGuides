@@ -1,0 +1,5 @@
+*.txt
+*.bak
+*#oldbased_on_*
+last_entry.properties
+
