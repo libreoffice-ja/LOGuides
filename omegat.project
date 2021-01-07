@@ -13,7 +13,7 @@
         <tm_dir>__DEFAULT__</tm_dir>
         <glossary_dir>__DEFAULT__</glossary_dir>
         <glossary_file>__DEFAULT__</glossary_file>
-        <dictionary_dir>../dictionary</dictionary_dir>
+        <dictionary_dir>__DEFAULT__</dictionary_dir>
         <source_lang>en-US</source_lang>
         <target_lang>ja</target_lang>
         <source_tok>org.omegat.tokenizer.LuceneEnglishTokenizer</source_tok>
