@@ -227,3 +227,5 @@ Text Body	本文
 LibreOffice Technology	LibreOffice Technology
 Android	Android
 iOS	iOS
+LibreOffice Enterprise	LibreOffice Enterprise
+LibreOffice Community	LibreOffice Community
