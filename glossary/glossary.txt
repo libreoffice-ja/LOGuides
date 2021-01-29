@@ -1,23 +1,37 @@
 2 Dots 1 Dash	二点鎖線
 3 Dashes 3 Dots	三点三鎖線
 Abstract	要約
+Add	追加
+After	右側
 Agenda	アジェンダ
 Align	整列
 Alignment	配置
+Android	Android
+Apply	適用
+Apply to All	すべてに適用
 Area	領域
 Arrange	配置
+Ascending	昇順
 At least	最小値
+Auto Correct	オートコレクト
+AutoText	定型句
 AutoText	定型文
 Base	Base
 Basic IDE	Basic IDE
+Before	左側
 Bibliography	参考文献
 Bibliography database	参考文献データベース
+Bold	太字
 Border	罫線
 Borders	罫線
+Brightness	明るさ
 Bullets	箇条書き
+Bézier curve	ベジェ曲線
 Calc	Calc
 Calc Guide	Calcガイド
+Cancel	キャンセル
 Capitalize	大文字
+Capitalize	大文字にする
 Category	分類
 Caution	注意
 Cell Value	セルの値
@@ -25,41 +39,69 @@ Chapter	章
 Character style	文字スタイル
 Charts	グラフ
 Clear Direct formatting	直接設定した書式の解除
+Close	閉じる
 Column Header	列見出し
+Column Width	列の幅
+Columns	列
 Complimentary Close	結語
 Connectors	コネクター
+Contextual Groups	コンテキスト グループ
+Contextual Single	コンテキスト シングル
+Contrast	コントラスト
 Convert	変換
+Custom Styles	ユーザー定義スタイル
 Dash	破線
 Dash Dot	一点鎖線
 Default	標準
+Default Character	標準文字スタイル
+Default Character Style	標準文字スタイル
+Default Paragraph	標準段落スタイル
+Delete	削除
 Demote	レベル下げ
+Descending	降順
+Did you know?	ご存知ですか？
 Digital Signature	デジタル署名
 Digital Signing	デジタル署名
 Display	内容表示
 Dot	点線
+Drag and Drop	ドラッグ アンド ドロップ
 Draw	Draw
 Drawing objects	図形オブジェクト
+Edit	編集
 Em dash	長ダッシュ
 Email	メール
 Email Address	メールアドレス
 Emphasis Mark	傍点
 En dash	短ダッシュ
+Even Pages	偶数ページ
 Expert	熟練者
 Expert Configuration	上級者向け設定
+Extra Large	より広い
+Extra Small	より狭い
 Extrusion	浮き出し
+Fax	FAX
+Fedora	Fedora
 Figure	図
-Fill Formatting	水やり
+Fill Formatting 塗りつぶし
 First Line Indent	本文段落字下げ
 Fixed	固定値
+Folder	フォルダー
+Font	フォント
+Font color	フォントの色
 Fontwork	フォントワーク
+Formula Object	数式オブジェクト
+Frame	枠
 General	全般
 Getting Started Guide	入門ガイド
 Glow	光彩
 Grayscale	グレースケール
 Grid	目盛線
 Gridlines	目盛線
+Groupedbar	グループバー
+Groupedbar Compact	グループバーコンパクト
 Hanging Indent	本文ぶら下げインデント
 Headings	見出し
+Help	ヘルプ
 Hidden characters	隠し文字
 Highlighting	蛍光ペン
 HyperText Markup Language (HTML)	ハイパー テキスト マークアップ ランゲージ（HTML）
@@ -67,65 +109,124 @@ Icon View	アイコン表示
 Image	画像
 Impress	Impress
 Input Method Status	入力メソッドのステータス
+Insert	挿入
 Installation Wizard	インストール ウィザード
 Interface	インターフェース
+Invalid name	無効な名前
+Italic	斜体
+Justified	両端揃え
+Keyword	キーワード
+Korean	韓国語
+Large	広い
 Legend	凡例
+LibreOffice Community	LibreOffice Community
+LibreOffice Enterprise	LibreOffice Enterprise
+LibreOffice Technology	LibreOffice Technology
 List	箇条書き
+List Styles	リストスタイル
 Long Dash	長破線
 Long Dash Dot	長鎖線
 Mailing List	メーリングリスト
 Main Title	主題
 Major interval	主目盛間隔
+Margin	余白
 Marginalia	傍注
 Margins	余白
 Math	Math
 Math Guide	Mathガイド
 Media Playback	メディアの再生
+Medium	普通
+Medium Large	やや広い
 Minor grid	補助目盛線
 Minor interval	補助目盛間隔
+Miscellaneous:	その他:
 Moderate	やや狭い
+More	詳細
+My Documents	マイドキュメント
+Name	名前
+Narrow	狭い
 Nested Table	入れ子の表
+New	新規
+New	新規作成
+No	いいえ
 Non Break	改行なし
+None	なし
+Normal	標準
 Note	メモ
 Notebookbar	ノートブックバー
+Number format	数の書式
 OASIS	構造化情報標準化機構
+OK	OK
+OLE objects	OLEオブジェクト
+Odd Pages	奇数ページ
+Odd and Even Pages	奇数/偶数ページ
+Open	開く
+Options	オプション
 Other Options	その他のオプション
 Outline Content Visibility	見出しの折りたたみ
 Outline Numbering	章番号付け
+Padding	間隔
+Page Design	用紙デザイン
 Page border	ページ罫線
 Percentile	百分位
 Playback	再生
-Portable Network Graphic (PNG)	ポータブル ネットワーク グラフィックス（PNG）
+Portable Network Graphic (PNG)	ポータブル ネットワーク グラフィック（PNG）
 Position	位置
 Predefined	定義済み
+Preview	プレビュー
 Promote	レベル上げ
 Protect document	ドキュメントの保護
 Quickstarter	クイックスターター
 Quotation	引用文
+Quotations	引用句
 Radius	範囲
 Read-only	読み取り専用
-Recent Documents	最近使ったドキュメント
-Recent documents	最近使用した​​ドキュメント
+Recent documents	最近使用したドキュメント
+Remove	削除
+Remove Direct Character Formats	直接設定した文字の書式を解除
+Reset	元に戻す
+Return address	差出人住所
 Row Header	行見出し
+Row Height	行の高さ
+Run in subhead	追い込み小見出し
+Save	保存
+Save as	名前を付けて保存
 Scientific	指数
 Shading	網掛け
 Shape	図形
+Sidebar	サイドバー
+Single Toolbar	シングルツールバー
+Slide	スライド
+Small	狭い
+Small Medium	やや狭い
 Small caps	小型英大文字
+Smooth scroll	スムーズ スクロール
 Soft Edge	ぼかし
 Soft hyphens	ソフトハイフン
 Sound	サウンド
 Sound	音
 Spacing	間隔
 Spacing	余白
+Specified name	指定の名前
+Spellcheck	スペルチェック
+Split/Merge:	分割/結合:
+Spreadsheet	スプレッドシート
 Standard	標準
+Standard Toolbar	標準ツールバー
 Subscript	下付き文字
 Subtitle	副題
 Superscript	上付き文字
+Tabbed	タブ
+Tabbed Compact	タブコンパクト
 Table	表
+Table Styles	表スタイル
+Text Body	本文
 Text Flow	体裁
+Text formula	計算式
 The Document Foundation	The Document Foundation
 Thick	太罫線
 Thin	細罫線
+Tip of the day	今日のヒント
 Tips	ヒント
 Title	表題
 Transformations	変形
@@ -139,11 +240,28 @@ Web	ウェブ
 Web page	Webページ
 Web site	ウェブサイト
 What's This?	これは何ですか？
+Wide	広い
 Windows metafile	Windows メタファイル
 Word Completion	単語の補完
+Wrap:	折り返し:
 Writer	Writer
 Writer Guide	Writerガイド
 Writing Aids	文書作成支援
+Yes	はい
+_Add	追加
+_Apply	適用
+_Arrange	配置
+_Cancel	キャンセル
+_Close	閉じる
+_Create	作成
+_Delete	削除
+_Edit	編集
+_Help	ヘルプ
+_No	いいえ
+_OK	_OK
+_Remove	削除
+_Reset	元に戻す
+_Yes	はい
 angle quotes	ギュメ
 animation effect	アニメーション効果
 appearance	外観
@@ -152,6 +270,7 @@ at most	せいぜい
 attribute	属性
 autoText	定型句文
 autoText	定型文
+begins with	次で始まる
 bibliography	参考文献
 breaks	区切り
 bullet	箇条書き記号
@@ -164,18 +283,22 @@ column	段組み
 column break	段区切り
 concordance	用語索引
 connector	コネクター
+contains	次を含む
 copy	コピー
 custom format	任意の書式
 cut	切り取り
 default	規定
 default	標準
 document	文書
+does not contain	次を含まない
 embarrassing	困った
 emboss	浮き出し
+ends with	次で終わる
 entry	見出し語
 entry	項目
 envelope	封筒
 fill character	充填文字（埋め字）
+floating text	フローティングテキスト
 format	書式
 formatting	書式設定
 formatting mark	編集記号
@@ -183,10 +306,25 @@ formula	数式
 formula bar	数式バー
 front matter	前付け
 hilarious	大笑いを誘う
+iOS	iOS
 imperial	ヤードポンド法
 index entry	索引項目
 instance	事例　実例
 instance	実例
+is above average	平均より上
+is above or equal average	平均以上
+is an error code	エラーコード
+is below average	平均より下
+is below or equal average	平均以下
+is between	次の値の間
+is greater than	より大きい
+is in bottom elements	下位
+is in bottom percent	パーセント下位
+is in top elements	上位
+is in top percent	パーセント上位
+is less than	より小さい
+is not an error code	エラーコードではない
+is not between	次の値の範囲外
 justified paragraph	両端揃え段落
 landscape	横置き
 line break	改行
@@ -215,17 +353,9 @@ spreadsheet	表計算
 strikethrough	取り消し線
 structure line	構成行
 text	文章
+thesaurus	類義語辞典
 transition	切り替え（効果）
 transparency	透過性
 user interface	ユーザーインターフェース
 whitespace	空白文字
 wrap	折り返し
-Justified	両端揃え
-Run in subhead	追い込み小見出し
-Frame	枠
-Text Body	本文
-LibreOffice Technology	LibreOffice Technology
-Android	Android
-iOS	iOS
-LibreOffice Enterprise	LibreOffice Enterprise
-LibreOffice Community	LibreOffice Community
