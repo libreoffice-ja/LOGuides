@@ -359,3 +359,5 @@ transparency	透過性
 user interface	ユーザーインターフェース
 whitespace	空白文字
 wrap	折り返し
+Fresh	最新
+Still	安定
