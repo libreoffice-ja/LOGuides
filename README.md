@@ -19,7 +19,7 @@ odtファイルを編集するためプルリクエストは受け付けてい�
 OmegaTの設定方法と作業方法
 ----------------------
 
-## プラグインのインストール
+### プラグインのインストール
 
 OmegaTには、[みんなの自動翻訳@Textra](https://mt-auto-minhon-mlt.ucri.jgn-x.jp/)を利用するためのプラグイン[omegat-textra-plugin](https://github.com/miurahr/omegat-textra-plugin)とMarkdown文書などを翻訳するための[Okapi Filters Plugin for OmegaT](https://bintray.com/okapi/Distribution/OmegaT_Plugin)をそれぞれインストールしてください。
 
