@@ -82,7 +82,6 @@ Extrusion	浮き出し
 Fax	FAX
 Fedora	Fedora
 Figure	図
-Fill Formatting 塗りつぶし
 First Line Indent	本文段落字下げ
 Fixed	固定値
 Folder	フォルダー
@@ -361,3 +360,4 @@ whitespace	空白文字
 wrap	折り返し
 Fresh	最新
 Still	安定
+OmegaT	OmegaT
