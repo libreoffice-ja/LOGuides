@@ -362,3 +362,4 @@ Fresh	最新
 Still	安定
 OmegaT	OmegaT
 Website	ウェブサイト
+Software	ソフトウエア
