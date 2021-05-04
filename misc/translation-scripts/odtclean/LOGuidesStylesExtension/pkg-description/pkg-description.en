@@ -1,0 +1,6 @@
+Highlight character styles used in LibreOffice guides. 
+Highlighting can be used in checking if characted styles are used properly and to detect unwanted direct formatting.
+
+sExtension was created according to https://wiki.documentfoundation.org/Development/Create_a_Hello_World_LibreOffice_extension
+
+Copyright (c) Milos Sramek 2021.

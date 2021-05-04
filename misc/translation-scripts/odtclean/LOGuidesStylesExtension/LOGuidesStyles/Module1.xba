@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic" script:moduleType="normal">REM  *****  BASIC  *****
+
+Sub CharStylesHighlight
+ oFamilies = ThisComponent.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+    If oFamilies.hasByName(&quot;Emphasis&quot;) Then
+    	oStyle = oFamilies.getByName(&quot;Emphasis&quot;)
+    	oStyle.CharBackColor = RGB(255,100,255)
+    End If
+    If oFamilies.hasByName(&quot;Strong Emphasis&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;Strong Emphasis&quot;)
+    	oStyle.CharBackColor = RGB(100,255,100)
+    End If
+    If oFamilies.hasByName(&quot;Keystroke&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;Keystroke&quot;)
+    	oStyle.CharBackColor = RGB(100,255,255)
+    End If
+    If oFamilies.hasByName(&quot;Source Text&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;Source Text&quot;)
+    	oStyle.CharBackColor = RGB(245,222,179)
+    End If
+    If oFamilies.hasByName(&quot;Code&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;Code&quot;)
+    	oStyle.CharBackColor = RGB(238,238,238)
+    End If
+    If oFamilies.hasByName(&quot;User Entry&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;User Entry&quot;)
+    	oStyle.CharBackColor = RGB(205,133,63)
+    End If	
+End Sub
+
+Sub CharStylesReset
+ oFamilies = ThisComponent.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+    If oFamilies.hasByName(&quot;Emphasis&quot;) Then
+    	oStyle = oFamilies.getByName(&quot;Emphasis&quot;)
+    	oStyle.CharBackColor = -1
+    End If
+    If oFamilies.hasByName(&quot;Strong Emphasis&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;Strong Emphasis&quot;)
+    	oStyle.CharBackColor = -1
+    End If
+    If oFamilies.hasByName(&quot;Keystroke&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;Keystroke&quot;)
+    	oStyle.CharBackColor = -1
+    End If
+    If oFamilies.hasByName(&quot;Source Text&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;Source Text&quot;)
+    	oStyle.CharBackColor = -1
+    End If
+    If oFamilies.hasByName(&quot;Code&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;Code&quot;)
+    	oStyle.CharBackColor = RGB(238,238,238)
+    End If
+    If oFamilies.hasByName(&quot;User Entry&quot;) Then	
+    	oStyle = oFamilies.getByName(&quot;User Entry&quot;)
+    	oStyle.CharBackColor = -1
+    End If
+End Sub
+REM  *****  BASIC  *****
+</script:module>
