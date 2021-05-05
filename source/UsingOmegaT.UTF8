@@ -1,0 +1,191 @@
+{{TopMenu{{#translation:}}}}
+{{Menu{{#translation:}}}}
+{{Menu.Documentation{{#translation:}}}}
+{{Rename|Using OmegaT for guides translation}}
+<languages/>
+
+<translate>
+<!--T:1-->
+OmegaT is an open source Computer Aided Translation tool. It is written in Java, translated into numerous languages and has a large community around it. We only describe here the necessary steps to use the tool with .odt files. Please read OmegaT documentation to know how to use it in your translation process.
+
+<!--T:2-->
+Miloš Šrámek has made a presentation about his workflow (thanks a lot!), this wiki page describes the process based on the development he shared.
+
+== Using OmegaT == <!--T:3-->
+
+<!--T:4-->
+Download the software from the official site here: http://www.omegat.org/. Even if you are on Linux, the packages offered via the distro repository are often outdated, so it is better to install the version from the site. Also, the Java version required may not be the one offered by your distro, so choose the version with the Java installer.
+
+<!--T:5-->
+To install it, follow the usual way on Windows. On Linux, there is a script that will place the package in /opt and install Java at a user level in case of another system installation, so just run linux-install.sh and you are done.
+
+<!--T:6-->
+Now, download the guide you want to translate in .odt format. Launch OmegaT and follow these steps:
+* Create a new project named GuideTrans for example. This will create a new directory in your home directory
+* In the Project creation window, set the languages for the source and the target, let the segmentation checked
+</translate>
+<translate>
+<!--T:7-->
+* Select the location of the guide you downloaded in the File for source language
+* Let the other paths as they are, the corresponding directory will be created in the GuideTrans directory
+* Click OK, you are now ready to translate the guide
+
+<!--T:8-->
+When you have finished your translation, create an .odt document that will be placed in the GuideTrans/target directory by selecting Create translated files under the Project menu. 
+
+<!--T:9-->
+Remember that under the project directory (GuideTrans in our case) you have several sub-directories that you can access: dictionary, glossary, source and target and translation memory. There is also several .tmx files (translation memory files) under the omegat directory. Again, do not hesitate to read the OmegaT documentation to go further with this helpful tool. 
+
+== Adding UI.po file == <!--T:10-->
+
+<!--T:11-->
+The translation for the LibreOffice interface and help is maintained by the l10n teams via Pootle. The format of the files there are .po files. The .po files are spread across multiple directories, which makes working with them difficult. By using a tool called 'Translate toolkit' we can modify this structure to get a big .csv file. This .csv file can be added to OmegaT to serve as a glossary. The glossary has a major benefit: while translating, you will be proposed the exact terms used in the menus and the dialog boxes, which is very important for consistency and the quality of the guides. 
+
+<!--T:12-->
+So, how to get all this in place [those explanations are on Debian, if you know how to do it on Windows, please add them :)]:
+
+<!--T:13-->
+* First, download the UI.po file in your language from here: https://translations.documentfoundation.org/XX/libo_ui/ where XX is the code of your language.
+* Download and install the Translate Toolkit from here: http://toolkit.translatehouse.org/index.html, there is an installer for Windows. On Linux, if you already had an old version installed, it is recommended to remove it before installing a new one.
+</translate>
+<translate>
+<!--T:14-->
+* Create a directory (podir in our example) where you unzip the downloaded UI files
+* Then, use the command line to convert po files to csv files from podir to csvdir (where the csv files will be placed)
+</translate>
+<syntaxhighlight lang="bash">
+po2csv -i podir -o csvdir
+</syntaxhighlight>
+<translate>
+<!--T:15-->
+* We will now create the big csv file
+</translate>
+<syntaxhighlight lang="bash">
+cat `find csvdir -name \*.csv` > lo.csv
+</syntaxhighlight>
+<translate>
+<!--T:16-->
+* Now navigate to csvdir directory and open the lo.csv file with LibreOffice, remove the first column that contains comments and save the file as text csv using tab as column separators.
+* Copy the file to the GuideTrans/glossary directory. 
+Suggestions will appear on the Glossary area of the OmegaT window and on the contextual menu. You can also activate them using Options > Transtips > Unable Transtips.
+
+== Adding a 3rd file == <!--T:17-->
+
+<!--T:18-->
+The idea here is to add a third file that will serve as translation memory for the current translation. Imagine you have an old guide already translated that you want to update to the newest English version but based on the old one in your language. We will then transform an existing .odt old file in a .tmx file. Before the transformation, make sure that your file is clean of direct formatting to avoid extra tags to be created. Then:
+
+<!--T:19-->
+* Create a new project in OmegaT called Aux
+* Set the segment displaying so that it shows text only
+* Copy the old translated guide to the Aux/source directory
+</translate>
+<translate>
+<!--T:20-->
+* Now, using the mouse, copy all text for both files and paste it to a new file.
+* Save the new file as a txt file, check the alignment of the segment and correct it using this tool https://sourceforge.net/projects/aligner/ and then export it as .tmx file.
+
+== Manage a Team Project == <!--T:21-->
+
+<!--T:22-->
+This part explains how to use the Team Project functionality of OmegaT. The Team Project feature in OmegaT makes it possible for multiple translators to work on the same translation project, over the internet, using a synchronised project memory and a synchronised project glossary.
+
+<!--T:23-->
+There are two parts in this guide. The first part will get you set up with the repository on GitHub to have the project synchronised. The second part is about how to set up the project on OmegaT. The team leader will set up the OmegaT part or ask Sophie on the Documentation project to set it for them, while the translators will only have to give the URL of the repository to OmegaT and translate as usual without taking care of anything else.
+
+=== GitHub part=== <!--T:24-->
+
+<!--T:25-->
+The first thing is to create a directory for your project on GitHub under the OmegaT repository. Well you need to be added to the OmegaT group too.
+
+<!--T:26-->
+# To be added to the project
+#* create an account on GitHub
+#* ask Sophie to be added to the LO/OmegaT group
+</translate>
+<translate>
+<!--T:27-->
+# Adding your language directory
+* you need to have svn installed on your computer
+* check out the repository using subversion to create a local repository:
+</translate>
+<syntaxhighlight lang="bash">
+svn co https://github.com/LibreOffice/OmegaT
+</syntaxhighlight>
+<translate>
+<!--T:28-->
+* enter OmegaT/trunk and create the xx directory where xx is your language code
+</translate>
+<syntaxhighlight lang="bash">
+mkdir xx 
+</syntaxhighlight>
+<translate>
+
+<!--T:29-->
+* download and unzip lo-guides-lang-template.zip. This template has been prepared by Miloš and will create what is needed in your repository, which you can get from
+https://www.dropbox.com/sh/xast59mptyxmj0u/AAC_jDmdALFrqUyShx1rzCOIa?dl=0
+
+<!--T:30-->
+* change <code><target_lang>SK</target_lang></code> for <code><target_lang>XX</target_lang></code> in the LOGuides/omegat.project file, where XX is your language code
+</translate>
+<syntaxhighlight lang="bash">
+gedit LOGuides/omegat.project
+</syntaxhighlight>
+<translate>
+
+<!--T:31-->
+* copy the LOGuides and LOGuides-graphic into the OmegaT/trunk/xx directory
+</translate>
+<syntaxhighlight lang="bash">
+cp -r /source directory/LOGuides LOGuides-graphic OmegaT/trunk/xx
+</syntaxhighlight>
+<translate>
+
+<!--T:32-->
+* add your language (xx is your language code) repository to svn
+</translate>
+<syntaxhighlight lang="bash">
+svn add xx
+</syntaxhighlight>
+<translate>
+<!--T:33-->
+(if you do not want the odg files with screenshots, either delete LOGuides-graphics or do not add it to svn. They may help, however, since
+besides screenshots there are also some drawings)
+
+<!--T:34-->
+* you may try to open the project in OmegaT now (do not do that prior to 'svn add', since OmegaT will create a few files, which should not be stored in the repository)
+
+<!--T:35-->
+* commit your language project (xx is your language code) with all the content inside
+</translate>
+<syntaxhighlight lang="bash">
+ svn commit -m "xx project added"
+</syntaxhighlight>
+<translate>
+
+===OmegaT part=== <!--T:36-->
+
+<!--T:37-->
+# Open the project from OmegaT, replace xx by your language code in the URL:
+#* use Project -> Download team project
+#* enter "https://github.com/LibreOffice/OmegaT/trunk/xx/LOGuides" in the Repository URL Box and hit tab - if OK, OmegaT will detect repository type and confirm that it is a subersion repository just below the field.
+</translate>
+<translate>
+<!--T:38-->
+#* enter the name of the local work folder (or create it - do not use the original which you have used to check out by subversion)
+#* Hit 'OK'. OmegaT in its lower left corner shows progress 
+# Start translating.
+
+<!--T:39-->
+Any time you will save the project, it will be synchronized on GitHub, the glossary and the translation will be updated.
+
+<!--T:40-->
+If there are other translators who want to work on the same project, they will need to create an account on GitHub. We will add them to the team and they will then have to follow the steps in the OmegaT part. They will never have to visit GitHub, everything will be handled by OmegaT.
+
+<!--T:41-->
+The next steps are, as explained above:
+* create glossary with GUI translation using the .po files on Pootle
+* create tmx files from old translations to reuse them as a third file
+* have everything translated by "Google translate" to save a lot of typing
+</translate>
+[[Category:Documentation{{#translation:}}]]
+[[Category:OmegaT]]
